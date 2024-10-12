@@ -17,12 +17,12 @@ Initiates a connection with the server, performs the Diffie-Hellman key exchange
 ### Server:
 Accepts client connections, participates in the key exchange, and handles encrypted messages from multiple clients simultaneously. It decrypts incoming messages and responds securely.
 ## Technologies Used:
-### C++ Sockets: 
+#### C++ Sockets: 
 For network communication between the client and server.
-### AES-128-CBC Encryption: 
+#### AES-128-CBC Encryption: 
 To encrypt and decrypt messages securely.
-### Diffie-Hellman Key Exchange: 
+#### Diffie-Hellman Key Exchange: 
 To generate a shared secret between the client and server.
 ## Prerequisites:
-OpenSSL or Crypto++: The application assumes the use of a library like OpenSSL for AES encryption and decryption.
-GCC/G++: For compiling the C++ code.
+#### OpenSSL or Crypto++: The application assumes the use of a library like OpenSSL for AES encryption and decryption.
+#### GCC/G++: For compiling the C++ code.
