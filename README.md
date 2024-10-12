@@ -23,3 +23,14 @@ Accepts client connections, participates in the key exchange, and handles encryp
 ## Prerequisites:
 #### OpenSSL or Crypto++: The application assumes the use of a library like OpenSSL for AES encryption and decryption.
 #### GCC/G++: For compiling the C++ code.
+## How to Use:
+#### Clone the repository:
+git clone https://github.com/your-repo-name/encrypted-chat.git
+#### Compile the client and server programs:
+g++ -o client client.cpp -lssl -lcrypto
+g++ -o server server.cpp -lssl -lcrypto
+#### Start the server:
+./server
+#### Run the client in a separate terminal:
+./client
+###### Follow the prompts to either register or login and start a secure chat.
